@@ -18,15 +18,15 @@ Automated testing - Selenium WebDriver with Page Object Model Approach (Maven Pr
 
 **Demonstrate edge or corner cases would consider**
 
-Scenario: Searching for next episode before the Start Time
+**Scenario**: Searching for next episode before the Start Time
 * Given today is next available episode
 * When user searches before the start time
 * Then next Episode's date and time is displayed as of today
 
-Scenario: Searching for next episode within the Start Time
-Given today is next available episode
-When user searches while the program has already began
-Then next Episode's date and time should not be as of today
+**Scenario**: Searching for next episode within the Start Time
+* Given today is next available episode
+* When user searches while the program has already began
+* Then next Episode's date and time should not be as of today
 
 **Demonstrate how bugs would be raised if found**
 
