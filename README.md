@@ -21,13 +21,17 @@ Automated testing - Selenium WebDriver using POM model (Maven Project with TestN
 Scenario: Searching for next episode before the Start Time
 
 Given today is next available episode
+
 When user searches before the start time
+
 Then next Episode's date and time is displayed as of today
 
 Scenario: Searching for next episode within the Start Time
 
 Given today is next available episode
+
 When user searches while the program has already began
+
 Then next Episode's date and time should not be as of today
 
 
