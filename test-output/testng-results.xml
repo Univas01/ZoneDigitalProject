@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8631" started-at="2018-07-01T07:21:17Z" finished-at="2018-07-01T07:21:25Z">
+  <suite name="Default suite" duration-ms="8659" started-at="2018-07-01T14:10:21Z" finished-at="2018-07-01T14:10:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8631" started-at="2018-07-01T07:21:17Z" finished-at="2018-07-01T07:21:25Z">
+    <test name="Default test" duration-ms="8659" started-at="2018-07-01T14:10:21Z" finished-at="2018-07-01T14:10:30Z">
       <class name="com.zonedigital.qa.testCases.EastEndersLandingPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zonedigital.qa.testCases.EastEndersLandingPageTest@5442a311]" name="setUp" is-config="true" duration-ms="8293" started-at="2018-07-01T07:21:17Z" finished-at="2018-07-01T07:21:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zonedigital.qa.testCases.EastEndersLandingPageTest@53b32d7]" name="setUp" is-config="true" duration-ms="8345" started-at="2018-07-01T14:10:21Z" finished-at="2018-07-01T14:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyNextDateTest()[pri:0, instance:com.zonedigital.qa.testCases.EastEndersLandingPageTest@5442a311]" name="verifyNextDateTest" duration-ms="161" started-at="2018-07-01T07:21:25Z" finished-at="2018-07-01T07:21:25Z">
+        <test-method status="PASS" signature="verifyNextDateAndTimeTest()[pri:0, instance:com.zonedigital.qa.testCases.EastEndersLandingPageTest@53b32d7]" name="verifyNextDateAndTimeTest" duration-ms="141" started-at="2018-07-01T14:10:29Z" finished-at="2018-07-01T14:10:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNextDateTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zonedigital.qa.testCases.EastEndersLandingPageTest@5442a311]" name="tearDown" is-config="true" duration-ms="139" started-at="2018-07-01T07:21:25Z" finished-at="2018-07-01T07:21:25Z">
+        </test-method> <!-- verifyNextDateAndTimeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zonedigital.qa.testCases.EastEndersLandingPageTest@53b32d7]" name="tearDown" is-config="true" duration-ms="141" started-at="2018-07-01T14:10:30Z" finished-at="2018-07-01T14:10:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.zonedigital.qa.testCases.EastEndersLandingPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
