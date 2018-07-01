@@ -4,7 +4,7 @@
 
 Manual testing - Excel
 
-Automated testing - Selenium WebDriver using POM model (Maven Project with TestNG). This includes Path to ExtentReport: /com.zonedigital.qa/test-output/ExtentReportsTestNG.html
+Automated testing - Selenium WebDriver with Page Object Model Approach (Maven Project with TestNG). This includes Path to ExtentReport: /com.zonedigital.qa/test-output/ExtentReportsTestNG.html
 
 
 **Demonstrate what types of testing would you conduct**
@@ -19,21 +19,14 @@ Automated testing - Selenium WebDriver using POM model (Maven Project with TestN
 **Demonstrate edge or corner cases would consider**
 
 Scenario: Searching for next episode before the Start Time
-
 Given today is next available episode
-
 When user searches before the start time
-
 Then next Episode's date and time is displayed as of today
 
 Scenario: Searching for next episode within the Start Time
-
 Given today is next available episode
-
 When user searches while the program has already began
-
 Then next Episode's date and time should not be as of today
-
 
 **Demonstrate how bugs would be raised if found**
 
