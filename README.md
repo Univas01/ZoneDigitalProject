@@ -1,7 +1,9 @@
 # zonedigitalproject
 
 **Tools used for carrying out the task**
+
 Manual testing - Excel
+
 Automated testing - Selenium WebDriver using POM model (Maven Project with TestNG). This includes Path to ExtentReport: /com.zonedigital.qa/test-output/ExtentReportsTestNG.html)
 
 
