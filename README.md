@@ -1,22 +1,19 @@
-# zonedigitalproject
+# Zone Digital Project
 
 **Tools used for carrying out the task**
+1. Excel for Manual test
+2. Selenium WebDriver with Page Object Model Approach for Automated test - This includes Path to ExtentReport: /com.zonedigital.qa/test-output/ExtentReportsTestNG.html
 
-Manual testing - Excel
-
-Automated testing - Selenium WebDriver with Page Object Model Approach (Maven Project with TestNG). This includes Path to ExtentReport: /com.zonedigital.qa/test-output/ExtentReportsTestNG.html
-
-
-**Demonstrate what types of testing would you conduct**
+**Types of testing conducted are as follows;**
 1. Exploratory test, which includes trying to Navigate to EastEnders Landing Page via various links
 2. Cross Browser testing to ensure same results
 
-**Demonstrate an understanding of the permutations and variations would you test**
+**Permutations and variations of test carried out include;**
 1. Verifying EastEnders next episode via search box
 2. Verifying EastEnders next episode via All programs
 
 
-**Demonstrate edge or corner cases would consider**
+**Edge test cases considered for the tests**
 
 **Feature:** Finding out when the next episode of EastEnders occurs
 
@@ -30,7 +27,7 @@ Automated testing - Selenium WebDriver with Page Object Model Approach (Maven Pr
 * When user searches while the program has already began
 * Then next Episode's date and time should not be as of today
 
-**Demonstrate how bugs would be raised if found**
+**Process of raising a bug**
 
 Regardless of defect tracking tool being used (eg JIRA, Bugzilla, HP ALM/Quality Center, excel etc), we should try to follow similar pattern while raising bugs.
 1. Create a ticket and provide steps to replicate the bug, also include the following
