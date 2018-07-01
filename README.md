@@ -18,6 +18,8 @@ Automated testing - Selenium WebDriver with Page Object Model Approach (Maven Pr
 
 **Demonstrate edge or corner cases would consider**
 
+**Feature:** Finding out when the next episode of EastEnders occurs
+
 **Scenario**: Searching for next episode before the Start Time
 * Given today is next available episode
 * When user searches before the start time
